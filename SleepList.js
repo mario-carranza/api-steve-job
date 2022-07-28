@@ -26,6 +26,8 @@ const SleepList = ({navigation}) => {
     state?.sleepsForYou || [],
   );
 
+  
+
   const [minutesFiltered, setMinutesFiltered] = React.useState('0');
   const [allSleeps, setAllSleeps] = React.useState([]);
   const [sleepsFiltered, setSleepsFiltered] = React.useState([]);
